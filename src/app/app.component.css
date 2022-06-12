@@ -1,0 +1,34 @@
+*{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.nav-container{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.record-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    border: 1px solid black;
+}
+
+.library-container{
+    height: 65%;
+    border: 1px solid black;
+}
+
